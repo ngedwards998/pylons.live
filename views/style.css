@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 0px;
+}
+:root{
+    --background: #353b48;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: #FFFFFF;
+}
+body {
+    background-color: var(--background);
+    color: #FFFFFF;
+    padding-bottom: 0;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 10px;
+}

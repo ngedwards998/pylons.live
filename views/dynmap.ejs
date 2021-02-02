@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pylons.live > Dynmap</title>
+    <link rel="icon" href="/icon.ico">
+    <link rel='stylesheet' href='/style.css' />
+    <link rel="stylesheet" href="/map/dynmap.css"/>
+</head>
+<body>
+<section id="top">
+    <br><br><br>
+    <h1>Dynmap</h1>
+</section>
+<section id="map1">
+    <div class="dynmap_div">
+        <iframe src="https://pylons.live/map/dynmap-internal" width="100%" height="100%" class="dynmap">
+            <p>Your browser does not support iframes!</p>
+        </iframe>
+    </div>
+    <!--
+    To add another dynmap, copy the below code without the -- > and in dynmap.css, delete the second line (overflow: hidden) and it should work
+    <br>
+    <div class="dynmap_div">
+        <iframe src="http://<IPHERE>:8123/" width="100%" height="800" class="dynmap">
+            <p>Your browser does not support iframes!</p>
+        </iframe>
+    </div>
+    -->
+</section>
+</body>
+</html>
